@@ -6,5 +6,4 @@ export const StyledHeader = styled.header`
     /* using props descructuring instead */
     background-color: ${({ theme }) => theme.colors.header};
     padding: 40px 0;
-    color: ${({ textColor }) => textColor}
 `
